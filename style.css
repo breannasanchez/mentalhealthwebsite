@@ -27,7 +27,7 @@ img {
 
 /* NAVIGATION STYLES */
 nav {
-  background-color: #333333;
+  background-color: #ffffff;
 }
 
 nav ul {
@@ -41,14 +41,15 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 1em;
   text-decoration: none;
   transition: all 0.5s;
+  font-family: fantasy;
 }
 
 nav ul li a:hover {
-  background-color:#666666;
+  background-color:#d23800;
 }
 
 nav ul li:last-child a {
