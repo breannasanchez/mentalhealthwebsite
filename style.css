@@ -45,21 +45,23 @@ nav ul li a {
   padding: 1em;
   text-decoration: none;
   transition: all 0.5s;
-  font-family: fantasy;
+  font-family: 'Sansita', sans-serif;
 }
 
 nav ul li a:hover {
-  background-color:#d23800;
+  background-color:#E18B81;
+  color: white;
+  transition: all 0.5s;
 }
 
 nav ul li:last-child a {
-  background-color: #cccccc;
-  color: #333333;
+  background-color: #C9CDF8;
+  color: #000000;
   transition: all 0.5s;
 }
 
 nav ul li:last-child a:hover {
-  background-color: #333333;
+  background-color: #000000;
   color:white;
 }
 
@@ -75,6 +77,9 @@ main {
   margin-right:auto;
   background-color:#666666;
 }
+
+
+
 
 .panels {
   display:grid;
