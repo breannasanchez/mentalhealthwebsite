@@ -6,54 +6,7 @@
 html, body {
   width:100%;
   height:100%;
-  background-color: #999999;
-}
-/* PAGE STRUCTURE */
-body {
-  display:grid;
-  grid-template-rows: auto 1fr auto;
-  background-image: url(../images/windfarm1.jpg);
-  background-size:cover;
-}
-img {
-  width: 100%;
-  margin-bottom: -4px;
-}
-/* NAVIGATION STYLES */
-nav {
-  background-color: #ffffff;
-}
-nav ul {
-  text-align:right;
-}
-nav ul li {
-  display:inline-block;
-  text-align:right;
-}
-nav ul li a {
-  display: block;
-  color: rgb(0, 0, 0);
-  padding: 1em;
-  text-decoration: none;
-  transition: all 0.5s;
-  font-family: 'Sansita', sans-serif;
-}
-
-nav ul li a:hover {
-  background-color:#E18B81;
-  color: white;
-  transition: all 0.5s;
-}
-
-nav ul li:last-child a {
-  background-color: #C9CDF8;
-  color: #000000;
-  transition: all 0.5s;
-}
-
-nav ul li:last-child a:hover {
-  background-color: #000000;
-  color:white;
+  background-color: #025060;
 }
 
 /* MAIN CONTENT */
@@ -62,7 +15,7 @@ main {
   max-width:900px;
   margin-left:auto;
   margin-right:auto;
-  background-color:#666666;
+  background-color:#e90000;
 }
 
 
@@ -74,5 +27,5 @@ main {
   height: 250px;
 }
 footer {
-  background-color:#222222;
+  background-color:#025060;
 }
