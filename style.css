@@ -9,19 +9,22 @@ html, body {
   background-color: #F3D7D0;
 }
 /* PAGE STRUCTURE */
-body {
-  display:grid;
-  grid-template-rows: auto 1fr auto;
-  background-image: url(../images/windfarm1.jpg);
-  background-size:cover;
-}
+
 img {
   width: 100%;
-  margin-bottom: 3800px;
+  margin-bottom: -4px;
+
 }
 /* NAVIGATION STYLES */
 nav {
+  display: grid; grid-template-columns: auto 1fr; 
   background-color: #ffffff;
+}
+nav div img {
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+
 }
 nav ul {
   text-align:right;

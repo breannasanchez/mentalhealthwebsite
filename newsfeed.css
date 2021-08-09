@@ -6,23 +6,66 @@
 html, body {
   width:100%;
   height:100%;
-  background-color:#C0736D;
+  background-color: #C0736D;
 }
-/* PAGE STRUCTURE */
-body {
-  display:grid;
-  grid-template-rows: auto 1fr auto;
-  background-image: url(../images/windfarm1.jpg);
-  background-size:cover;
+
+#card {
+  width: 600px;
+  height: 200px;
+  background-color: #C4C4C4;
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow:3px 3px 3px black;
+
+}
+
+#card i {
+  font-size: 2.5em;
+  
+}
+
+#cardtwo {
+  width: 600px;
+  height: 200px;
+  background-color: #C4C4C4;
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow:3px 3px 3px black;
+
+}
+#cardthree {
+  width: 600px;
+  height: 200px;
+  background-color: #C4C4C4;
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow:3px 3px 3px black;
+
+}
+#Searchbar{
+  margin-left: 82%;
+  margin-top: 1%;
+  font-size: 15px;
+}
+.welcome *{
+  display: inline-block;
+
 }
 img {
   width: 100%;
   margin-bottom: -4px;
 }
+
 /* NAVIGATION STYLES */
 nav {
   background-color: #ffffff;
 }
+nav div img {
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
 nav ul {
   text-align:right;
 }
@@ -55,24 +98,16 @@ nav ul li:last-child a:hover {
   background-color: #000000;
   color:white;
 }
-
-/* MAIN CONTENT */
 main {
   width:100%;
   max-width:900px;
-  margin-left:auto;
+  margin-left:5%;
   margin-right:auto;
-  background-color:#C0736D;
 }
 
-
-
-
-.panels {
-  display:grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  height: 250px;
+h1{
+  font-family: 'Comfortaa', cursive;
+  margin-top: 20px;
+  font-size: 25px;
 }
-footer {
-  background-color:#222222;
-}
+

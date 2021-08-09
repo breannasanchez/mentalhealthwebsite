@@ -10,8 +10,8 @@ html, body {
 }
 
 #card {
-  width: 250px;
-  height: 250px;
+  width: 250px !important;
+  height: 330px;
   background-color: #C4C4C4;
   margin:auto;
   position: relative;
@@ -29,45 +29,42 @@ html, body {
 #card > *{
   position: absolute;
   transform: translate(-50%, -50%);
-
 }
-
 #username {
-  position:relative;
-  height: 7%;
-  width: 75%;
-  
-}
-
-#password{
-  position: relative;
-  height:7%;
-  width: 75%;
-
-}
-
-#signupnow{
-  position:absolute;
-  text-decoration: none;
-  font-weight: 600;
-  color: #95DAEA;
-  text-align: center;
-  font-family: 'Red Hat Display', sans-serif;
-}
+    position:relative;
+    height: 5%;
+    width: 75%;
+    
+  }
+  #email {
+    position:relative;
+    height: 5%;
+    width: 75%;
+    
+  }
+  #password {
+    position:relative;
+    height: 5%;
+    width: 75%;
+  }
+  #confirmpassword {
+    position:relative;
+    height: 5%;
+    width: 75%;
+  }
 
 .button{
-  display: block;
-  background-color: #009CB1;
-  width: 65%;
-  height: 10%;
-  padding: 3px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  color: white;
-  font-family: 'Red Hat Display', sans-serif;
-  text-align: center;
-  
+    display: block;
+    background-color: #009CB1;
+    width: 65%;
+    height: 5%;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
 }
 
 h1{
@@ -77,7 +74,6 @@ h1{
   -webkit-text-stroke: 1px black;
   -webkit-text-stroke: 0.5px white;
 }
-
 footer {
   background-color:#025060;
 }
