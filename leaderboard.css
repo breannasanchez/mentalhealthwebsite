@@ -65,8 +65,51 @@ main {
   background-color:#e2c75a;
 }
 
+.top-3 {
+  width: 100%;
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 35px;
+}
 
+.top-3 td {
+  padding: 10px;
+}
 
+.top-3 td > div {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-gap: 20px;
+}
+
+.top-3 td > div img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.top-3 td > div div.top-player img{
+  width: 100px;
+  height: 100px;
+}
+ 
+.four-ten {
+  width:100%;
+  border-width:0;
+  border-collapse: collapse;
+  background-color: white;
+  font-family: 'Sarpanch', sans-serif;
+}
+
+thead {
+  border:1px solid black
+}
+
+.rank-collumn {
+  width: 7.5%;
+  text-align: center;
+  padding: 10px;
+}
 
 .panels {
   display:grid;
@@ -76,4 +119,3 @@ main {
 footer {
   background-color:#222222;
 }
-
