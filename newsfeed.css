@@ -12,7 +12,7 @@ html, body {
 #card {
   width: 600px;
   height: 200px;
-  background-color: #C4C4C4;
+  background-color: #000000;
   margin-top: 2%;
   border-radius: 10px;
   box-shadow:3px 3px 3px black;
@@ -27,7 +27,7 @@ html, body {
 #cardtwo {
   width: 600px;
   height: 200px;
-  background-color: #C4C4C4;
+  background-color: #000000;
   margin-top: 2%;
   border-radius: 10px;
   box-shadow:3px 3px 3px black;
@@ -36,12 +36,22 @@ html, body {
 #cardthree {
   width: 600px;
   height: 200px;
-  background-color: #C4C4C4;
+  background-color: #000000;
   margin-top: 2%;
   border-radius: 10px;
   box-shadow:3px 3px 3px black;
 
 }
+#hotlines {
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  background-color: #C7CDF7;
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow:3px 3px 3px black;
+}
+
 #Searchbar{
   margin-left: 82%;
   margin-top: 1%;
@@ -51,9 +61,15 @@ html, body {
   display: inline-block;
 
 }
-img {
-  width: 100%;
-  margin-bottom: -4px;
+
+.fas fa-search{
+  font-size: 30px;
+
+}
+
+#create{
+  font-family: 'Sansita', sans-serif;
+  font-size: 12px;
 }
 
 /* NAVIGATION STYLES */
