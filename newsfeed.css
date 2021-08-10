@@ -65,14 +65,19 @@ html, body {
 
 }
 
-.fas fa-search{
-  font-size: 30px;
-
-}
-
 #create{
   font-family: 'Sansita', sans-serif;
   font-size: 12px;
+  color:black;
+}
+
+#plussign{
+  color:#830743;
+  font-size: 11px;
+}
+#searchsign{
+  color: #830743;
+  font-size: 18px;
 }
 
 /* NAVIGATION STYLES */
