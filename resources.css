@@ -21,8 +21,15 @@ img {
 }
 /* NAVIGATION STYLES */
 nav {
+  display: grid; grid-template-columns: auto 1fr;
   background-color: #ffffff;
 }
+nav div img {
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
 nav ul {
   text-align:right;
 }
