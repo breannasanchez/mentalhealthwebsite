@@ -15,8 +15,28 @@ html, body {
   background-color: #000000;
   margin-top: 2%;
   border-radius: 10px;
-  box-shadow:3px 3px 3px black;
+  box-shadow:3px 3px 3px #830743 ;
+  color: white;
+  padding: 10px;
+  font-family: 'Sansita', sans-serif;
 
+}
+#cookie {
+  position: absolute;
+  font-size: 10px;
+  
+}
+#Greyssi {
+  margin-left: 2.9em;
+  margin-top: 7px;
+}
+#greymem{
+  margin-left: 0.75em;
+  font-family: 'Comfortaa', cursive;
+}
+#greytext{
+  margin-left:1.5em;
+  font-family: 'Comfortaa', cursive;
 }
 
 #card i {
@@ -30,7 +50,10 @@ html, body {
   background-color: #000000;
   margin-top: 2%;
   border-radius: 10px;
-  box-shadow:3px 3px 3px black;
+  box-shadow:3px 3px 3px #830743 ;
+  color: white;
+  padding: 10px;
+  font-family: 'Sansita', sans-serif;
 
 }
 #cardthree {
@@ -39,12 +62,14 @@ html, body {
   background-color: #000000;
   margin-top: 2%;
   border-radius: 10px;
-  box-shadow:3px 3px 3px black;
-
+  box-shadow:3px 3px 3px #830743 ;
+  color: white;
+  padding: 10px;
+  font-family: 'Sansita', sans-serif;
 }
 #hotlines {
   position: absolute;
-  width: 200px;
+  width: 190px;
   height: 500px;
   background-color: #C7CDF7;
   margin-top: 2%;
@@ -53,6 +78,7 @@ html, body {
   font-family: 'Sansita', sans-serif;
   text-decoration: none;
   text-align: center;
+  padding: 10px;
 }
 
 #Searchbar{
@@ -78,6 +104,16 @@ html, body {
 #searchsign{
   color: #830743;
   font-size: 18px;
+}
+
+#imalive{
+  text-decoration: none;
+  color: #014A5A;
+}
+
+#crisistextline{
+  text-decoration: none;
+  color: #014A5A;
 }
 
 /* NAVIGATION STYLES */
