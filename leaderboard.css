@@ -91,12 +91,17 @@ main {
   width: 50px;
   height: 50px;
   object-fit: cover;
-  object-position: top;
 }
 
 .top-3 td > div div.top-player img{
   width: 100px;
   height: 100px;
+  object-position: top;
+}
+.top-3 td > div div.second-player img{
+  width: 50px;
+  height: 50px;
+  object-position: bottom;
 }
  
 .four-ten {
@@ -106,12 +111,26 @@ main {
   background-color: white;
   font-family: 'Sarpanch', sans-serif;
 }
+.four-ten td > div img {
+  width:50px;
+  height:50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
 
+.miguel {
+  float:right;
+  transform:translateY(20%);
+}
+
+.mushroom {
+  transform: translateY(-20%);
+}
 thead {
   border:1px solid black
 }
 
-.rank-collumn {
+.rank-column {
   width: 7.5%;
   text-align: center;
   padding: 10px;
