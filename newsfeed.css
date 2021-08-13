@@ -9,15 +9,15 @@ html, body {
   background-color: #FF9E96;
   background-image: url(https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
 }
-
+#mainandhotlines{
+  display: flex;
+}
 #card {
   width: 600px;
-  height: 180px;
   background-color: #000000;
   margin-top: 2%;
   box-shadow:3px 3px 3px #830743 ;
   color: white;
-  padding: 10px;
   font-family: 'Sansita', sans-serif;
 
 }
@@ -27,8 +27,8 @@ html, body {
   
 }
 #Greyssi {
-  margin-left: 2.9em;
-  margin-top: 7px;
+  padding: 20px;
+  padding-left: 40px;
 }
 #greymem{
   margin-left: 0.75em;
@@ -42,30 +42,25 @@ html, body {
   font-family: 'Comfortaa', cursive;
   font-size: 15px;
 }
-#garciacomment{
-  position: absolute;
-  background-color: darkblue;
-}
 #greycomment{
-  position: absolute;
+  position: relative;
   padding: 7px;
   width:601.6px;
+  box-sizing: border-box;
 }
 
 #cardtwo {
   width: 600px;
-  height: 180px;
   background-color: #000000;
   margin-top: 2%;
   box-shadow:3px 3px 3px #830743 ;
   color: white;
-  padding: 10px;
   font-family: 'Sansita', sans-serif;
 
 }
 #Abraham {
-  margin-left: 2.9em;
-  margin-top: 7px;
+  padding: 20px;
+  padding-left: 40px;
 }
 #abramem{
   margin-left: 0.75em;
@@ -80,24 +75,23 @@ html, body {
   font-size: 15px;
 }
 #abracomment{
-  position: absolute;
+  position: relative;
   padding: 7px;
   width:601.6px;
+  box-sizing: border-box;
 }
 
 #cardthree {
   width: 600px;
-  height: 190px;
   background-color: #000000;
   margin-top: 2%;
   box-shadow:3px 3px 3px #830743 ;
   color: white;
-  padding: 10px;
   font-family: 'Sansita', sans-serif;
 }
 #Jonathan {
-  margin-left: 2.9em;
-  margin-top: 7px;
+  padding: 20px;
+  padding-left: 40px;
 }
 #jonmem{
   margin-left: 0.75em;
@@ -112,16 +106,18 @@ html, body {
   font-size: 15px;
 }
 #joncomment{
-  position: absolute;
+  position: relative;
   padding: 7px;
   width:601.6px;
+  box-sizing: border-box;
 }
 #alexcomment{
-  position: absolute;
+  position: relative;
   background-color: #DFDCDB;
   color:black;
-  width:605.5px;
-  padding: 7px;
+  width:601.2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 #alex{
   margin-left: 6em;
@@ -132,21 +128,23 @@ html, body {
 }
 
 #hotlines {
-  position: absolute;
   width: 190px;
   height: 500px;
   background-color: #DFDCDB;
-  margin-top: 2%;
+  margin-top: 110px;
+  margin-right: 30px;
+  margin-left: 50px;
   border-radius: 10px;
   box-shadow:3px 3px 3px black;
   font-family: 'Sansita', sans-serif;
   text-decoration: none;
   text-align: center;
   padding: 10px;
+  top: 35%;
+  right: 3%;
 }
 
 #Searchbar{
-  margin-left: 82%;
   margin-top: 1%;
   font-size: 15px;
 }
@@ -159,6 +157,9 @@ html, body {
   font-family: 'Sansita', sans-serif;
   font-size: 12px;
   color:black;
+}
+.searchcontainer{
+  text-align: right;
 }
 
 #plussign{
