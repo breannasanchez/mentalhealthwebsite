@@ -31,9 +31,9 @@ html, body {
   padding-left: 10px;
 }
 #Greyssi img {
-  width:50px;
-  height:50px;
-  border: 1px solid white;
+  width:45px;
+  height:45px;
+  border: 2px solid white;
   border-radius: 100%;
 }
 #greymem{
@@ -70,6 +70,12 @@ html, body {
   padding: 20px;
   padding-left: 40px;
 }
+#Abraham img {
+  width:45px;
+  height:45px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
 #abramem{
   margin-left: 0.75em;
   font-family: 'Comfortaa', cursive;
@@ -97,9 +103,11 @@ html, body {
   color: white;
   font-family: 'Sansita', sans-serif;
 }
-#Jonathan {
-  padding: 20px;
-  padding-left: 40px;
+#Jonathan img {
+  width:45px;
+  height:45px;
+  border: 2px solid white;
+  border-radius: 100%;
 }
 #jonmem{
   margin-left: 0.75em;
@@ -129,6 +137,12 @@ html, body {
 }
 #alex{
   margin-left: 6em;
+}
+#alex img {
+  width:45px;
+  height:45px;
+  border: 2px solid white;
+  border-radius: 100%;
 }
 #alextext{
   margin-left: 6em;
