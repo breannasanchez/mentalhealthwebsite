@@ -64,16 +64,35 @@ nav ul li:last-child a:hover {
 }
 
 /* MAIN CONTENT */
-main {
-  width:100%;
-  max-width:900px;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:#94CFE5;
+
+
+.image-quote {
+ display: flex;
 }
 
+.recources-image {
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: 0px;
+}
 
+.recources-quote {
+  margin-left: 0px;
+  margin-top: 100px;
+  margin-right: 150px;
+}
+.natalie{
+  width:70%;
+}
+.attheend {
+  width: 100%;
+  text-align: center;
+}
 
+#stat {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 .panels {
   display:grid;
