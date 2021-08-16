@@ -66,6 +66,13 @@ html, body {
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
 }
+#backbutton{
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  font-size: 50px;
+
+}
 
 h1{
   font-family: 'Sansita', sans-serif;
