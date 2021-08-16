@@ -8,6 +8,48 @@ html, body {
   height:100%;
   background-color: #025060;
 }
+nav {
+  display: grid; grid-template-columns: auto 1fr; 
+  background-color: #ffffff;
+}
+nav div img {
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+
+}
+nav ul {
+  text-align:right;
+}
+nav ul li {
+  display:inline-block;
+  text-align:right;
+}
+nav ul li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 1em;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-family: 'Sansita', sans-serif;
+}
+
+nav ul li a:hover {
+  background-color:#E18B81;
+  color: white;
+  transition: all 0.5s;
+}
+
+nav ul li:last-child a {
+  background-color: #C9CDF8;
+  color: #000000;
+  transition: all 0.5s;
+}
+
+nav ul li:last-child a:hover {
+  background-color: #000000;
+  color:white;
+}
 
 #card {
   width: 250px;
@@ -69,6 +111,7 @@ html, body {
   text-align: center;
   
 }
+
 
 h1{
   font-family: 'Sansita', sans-serif;
