@@ -279,6 +279,7 @@ nav ul li a {
   color:white;
 }
 .newsfeednav {
+  background-color: #FF5176;
   color: #000000;
   transition: all 0.5s;
 }
