@@ -34,20 +34,50 @@ nav ul li a {
   font-family: 'Sansita', sans-serif;
 }
 
-nav ul li a:hover {
-  background-color:#E18B81;
-  color: white;
-  transition: all 0.5s;
-}
-
-nav ul li:last-child a {
-  background-color: #C9CDF8;
+.signinnav {
+  background-color: white;
   color: #000000;
   transition: all 0.5s;
 }
 
-nav ul li:last-child a:hover {
-  background-color: #000000;
+.signinnav:hover {
+  background-color: #025060;
+  color:white;
+}
+.indexnav {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.indexnav:hover {
+  background-color: #F3D7D0;
+  color:white;
+}
+.resourcesnav {
+  color:#000000;
+  transition: all 0.5s;
+}
+
+.resourcesnav:hover {
+  background-color:#94CFE5;
+  color:white;
+}
+.newsfeednav {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.newsfeednav:hover {
+  background-color: #FF5176;
+  color:white;
+}
+.leaderboardnav {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.leaderboardnav:hover {
+  background-color: #CCB1C3;
   color:white;
 }
 
