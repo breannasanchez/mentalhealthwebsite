@@ -26,15 +26,26 @@ html, body {
   font-size: 38px;
   
 }
+#pfpdistance{
+  position: relative;
+  margin-left: 42px;
+}
+
 #Greyssi {
   padding: 20px;
-  padding-left: 10px;
+  padding-left: 30px;
+  padding-top: 3px;
 }
 #Greyssi img {
-  width:45px;
-  height:45px;
+  width:44px;
+  height:44px;
   border: 2px solid white;
   border-radius: 100%;
+  object-position: right;
+  position: relative;
+  margin-bottom: -42px;
+  margin-left: -11px;
+
 }
 #greymem{
   margin-left: 0.75em;
@@ -68,21 +79,19 @@ html, body {
 }
 #Abraham {
   padding: 20px;
-  padding-left: 40px;
+  padding-left: 30px;
+  padding-top: 3px;
 }
 #Abraham img {
-  width:45px;
-  height:45px;
+  width:44px;
+  height:44px;
   border: 2px solid white;
   border-radius: 100%;
+  position: relative;
+  margin-bottom: -42px;
+  margin-left: -11px;
 }
-#abramem{
-  margin-left: 0.75em;
-  font-family: 'Comfortaa', cursive;
-  padding-bottom: 8px;
-  padding-top: 2px;
-  font-size: 13px;
-}
+
 #abratext{
   margin-left:1.5em;
   font-family: 'Comfortaa', cursive;
@@ -103,19 +112,21 @@ html, body {
   color: white;
   font-family: 'Sansita', sans-serif;
 }
+#Jonathan {
+  padding: 20px;
+  padding-left: 30px;
+  padding-top: 3px;
+}
 #Jonathan img {
-  width:45px;
-  height:45px;
+  width:44px;
+  height:44px;
   border: 2px solid white;
   border-radius: 100%;
+  position: relative;
+  margin-bottom: -42px;
+  margin-left: -11px;
 }
-#jonmem{
-  margin-left: 0.75em;
-  font-family: 'Comfortaa', cursive;
-  padding-bottom: 8px;
-  padding-top: 2px;
-  font-size: 13px;
-}
+
 #jontext{
   margin-left:1.5em;
   font-family: 'Comfortaa', cursive;
@@ -143,6 +154,11 @@ html, body {
   height:45px;
   border: 2px solid white;
   border-radius: 100%;
+  position: absolute;
+  top: 4%;
+  right: 84.5%;
+  height: 30px;
+  width: 30px;
 }
 #alextext{
   margin-left: 6em;
@@ -169,6 +185,9 @@ html, body {
 #Searchbar{
   margin-top: 1%;
   font-size: 15px;
+}
+.welcome{
+  font-weight: 700;
 }
 .welcome *{
   display: inline-block;
@@ -228,6 +247,7 @@ nav ul li a {
   text-decoration: none;
   transition: all 0.5s;
   font-family: 'Sansita', sans-serif;
+  font-weight: 700;
 }
 
 nav ul li a:hover {

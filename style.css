@@ -40,6 +40,7 @@ nav ul li a {
   text-decoration: none;
   transition: all 0.5s;
   font-family: 'Sansita', sans-serif;
+  font-weight: 700;
 }
 
 nav ul li a:hover {
@@ -71,7 +72,7 @@ position: relative;
 .tag {
   float: left;
   position: absolute;
-  left: 30%;
+  left: 27.50%;
   top: 31%;
   z-index: 1000;
   background-color: #f3f3f323;
@@ -86,7 +87,7 @@ position: relative;
   float: left;
   position: absolute;
   top:52%;
-  left:18%;
+  left:16.5%;
   z-index: 1000;
   background-color: #f3f3f323;
   padding: 15px;
@@ -136,7 +137,22 @@ position: relative;
   margin-left: 80px;
   margin-top: 50px;
 }
+.honebox{
+  font-size: 40px;
+  color:#013E4A;
+  font-weight: bold;
+  padding-bottom: 1px;
 
+}
+.htwobox{
+  font-size: 23px;
+
+}
+.hfivebox{
+  font-size: 13px;
+  padding-top: 4px;
+  
+}
 .instruct {
   text-align: center;
   color: #AE508F;

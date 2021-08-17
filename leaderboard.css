@@ -43,6 +43,7 @@ nav ul li a {
   text-decoration: none;
   transition: all 0.5s;
   font-family: 'Sansita', sans-serif;
+  font-weight: 700;
 }
 
 nav ul li a:hover {

@@ -66,12 +66,28 @@ html, body {
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
 }
-#backbutton{
-  position: absolute;
-  top: 25%;
-  left: 15%;
-  font-size: 50px;
 
+.backbutton {
+  transition-duration: 0.4s;
+  position: absolute;
+  margin-left: 430px;
+  font-size: 85px;
+  padding-top: 262px;
+  color:#022642;
+}
+
+.backbutton:hover {
+  color: #7B0841;
+ 
+}
+.return{
+  font-size: 14px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 461px;
+  padding-top: 297.5px;
+  font-family: 'Sansita', sans-serif;
+  color: white;
 }
 
 h1{
