@@ -117,8 +117,12 @@ position: absolute;
   border: 5px solid black;
   position: relative;
   transform: translateX(50px);
-  margin-top: 30px;
-  padding: 20px;
+  margin-top: 36px;
+  padding: 22px;
+  height: 205px;
+  width: 630px;
+  padding-bottom: 30px;
+  margin-left: 60px;
 
 
 }
