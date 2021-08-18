@@ -7,6 +7,7 @@ html, body {
   width:100%;
   height:100%;
   background-color: #94CFE5;
+  font-family: 'Sansita';
 }
 /* PAGE STRUCTURE */
 body {
@@ -47,20 +48,50 @@ nav ul li a {
   font-weight: 700;
 }
 
-nav ul li a:hover {
-  background-color:#E18B81;
-  color: white;
-  transition: all 0.5s;
-}
-
-nav ul li:last-child a {
-  background-color: #C9CDF8;
+.signinnav {
+  background-color: white;
   color: #000000;
   transition: all 0.5s;
 }
 
-nav ul li:last-child a:hover {
-  background-color: #000000;
+.signinnav:hover {
+  background-color: #025060;
+  color:white;
+}
+.indexnav {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.indexnav:hover {
+  background-color: #F3D7D0;
+  color:white;
+}
+.resourcesnav {
+  color:#000000;
+  transition: all 0.5s;
+}
+
+.resourcesnav:hover {
+  background-color:#94CFE5;
+  color:white;
+}
+.newsfeednav {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.newsfeednav:hover {
+  background-color: #FF5176;
+  color:white;
+}
+.leaderboardnav {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.leaderboardnav:hover {
+  background-color: #CCB1C3;
   color:white;
 }
 
@@ -72,17 +103,23 @@ nav ul li:last-child a:hover {
  margin-bottom: 50px;
 }
 
-.resources-image {
-  margin-left: 150px;
-  margin-top: 100px;
-  margin-right: 0px;
+.resourcesflex{
+  display: flex;
+  max-width: 1000px;
+  padding: 20px;
+}
+.resources-image img{
+position: absolute;
 }
 
 .recources-quote {
-  margin-left: 0px;
-  margin-top: 100px;
-  margin-right: 150px;
-  font-family: 'Sansita';
+  border: 5px solid black;
+  position: relative;
+  transform: translateX(50px);
+  margin-top: 30px;
+  padding: 20px;
+
+
 }
 .natalie{
   width:70%;
@@ -115,10 +152,6 @@ nav ul li:last-child a:hover {
 .article-title {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.article-paragraph {
-
 }
 
 .article:hover {
